@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>UsbEject.Logging.Microsoft.Extensions</id>
+    <title>UsbEject Microsoft.Extensions.Logging Adapter</title>
+    <version>2.0.0-alpha</version>
+    <authors>Dmitry Shechtman</authors>
+    <owners>Dmitry Shechtman</owners>
+    <projectUrl>https://github.com/CHDKUtil/UsbEject.Logging.Microsoft.Extensions</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/CHDKUtil/UsbEject.Logging.Microsoft.Extensions/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>UsbEject Microsoft.Extensions.Logging Adapter</description>
+    <copyright>Copyright © 2017 Dmitry Shechtman</copyright>
+    <tags>usb eject usbeject logging adapter</tags>
+    <releaseNotes>Initial release</releaseNotes>
+    <dependencies>
+      <group targetFramework="net45">
+        <dependency id="UsbEject" version="2.0.0-alpha" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="1.1.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
