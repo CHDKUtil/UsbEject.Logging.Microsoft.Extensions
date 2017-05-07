@@ -37,13 +37,6 @@ namespace UsbEject.Logging.Microsoft.Extensions
         }
 
         /// <inheritdoc/>
-        public void Log(LogLevel level, string format, object arg0)
-        {
-            string str = string.Format(format, arg0);
-            Logger.Log(GetLogLevel(level), default(EventId), str, null, null);
-        }
-
-        /// <inheritdoc/>
         public void Log(LogLevel level, string format, params object[] args)
         {
             string str = string.Format(format, args);
