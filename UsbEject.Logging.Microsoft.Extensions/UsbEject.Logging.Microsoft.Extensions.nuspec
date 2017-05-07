@@ -3,7 +3,7 @@
   <metadata>
     <id>UsbEject.Logging.Microsoft.Extensions</id>
     <title>UsbEject Microsoft.Extensions.Logging Adapter</title>
-    <version>2.0.0-alpha</version>
+    <version>2.1.0-alpha</version>
     <authors>Dmitry Shechtman</authors>
     <owners>Dmitry Shechtman</owners>
     <projectUrl>https://github.com/CHDKUtil/UsbEject.Logging.Microsoft.Extensions</projectUrl>
@@ -12,10 +12,10 @@
     <description>UsbEject Microsoft.Extensions.Logging Adapter</description>
     <copyright>Copyright © 2017 Dmitry Shechtman</copyright>
     <tags>usb eject usbeject logging adapter</tags>
-    <releaseNotes>Initial release</releaseNotes>
+    <releaseNotes>Revised logger API</releaseNotes>
     <dependencies>
       <group targetFramework="net45">
-        <dependency id="UsbEject" version="2.0.0-alpha" />
+        <dependency id="UsbEject" version="2.1.0-alpha" />
         <dependency id="Microsoft.Extensions.Logging.Abstractions" version="1.1.1" />
       </group>
     </dependencies>
