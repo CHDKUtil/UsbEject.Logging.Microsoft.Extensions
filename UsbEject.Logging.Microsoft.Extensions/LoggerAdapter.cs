@@ -19,12 +19,6 @@ namespace UsbEject.Logging.Microsoft.Extensions
         }
 
         /// <inheritdoc/>
-        public void Dispose()
-        {
-            //Do nothing
-        }
-
-        /// <inheritdoc/>
         public void Log(LogLevel level, object obj)
         {
             Logger.Log(GetLogLevel(level), default(EventId), obj, null, null);
