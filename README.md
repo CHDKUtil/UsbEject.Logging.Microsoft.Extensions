@@ -1,27 +1,10 @@
 # UsbEject Microsoft.Extensions.Logging Adapter
 
-Works with [UsbEject](https://github.com/CHDKUtil/UsbEject).
-
-## Installation
-
-```PowerShell
-Install-Package UsbEject.Logging.Microsoft.Extensions -Pre
-```
-
-## Usage
-
-```csharp
-LoggerAdapter logger = new LoggerAdapter(loggerFactory);
-using (VolumeDeviceClass volumes = new VolumeDeviceClass(logger))
-{
-  Volume volume = volumes.SingleOrDefault(v => ejectDrive.Equals(v.LogicalDrive));
-  volume?.Eject(false);
-}
-```
+Deprecated in favor of [Chimp.Logging.Extensions](https://github.com/CHDKUtil/Chimp.Logging.Extensions).
 
 ## MIT License
 
-Copyright © 2017 Dmitry Shechtman
+Copyright Â© 2017 Dmitry Shechtman
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
